@@ -55,6 +55,7 @@ movieId: numeric(5,0)
 theaterId: numeric(4,0)
 number: numeric(4,0)
 time: date
+creditCard: numric(12,0)
 -----------------------------
 PK: recordId
 FK: movieId references Movie
