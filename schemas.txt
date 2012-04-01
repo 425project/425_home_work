@@ -73,6 +73,7 @@ creditCardType: varchar(10)
 phone: numeric(20,12)
 address: varchar(25)
 zipCode: numeric(5,0)
+expiration date
 ----------------------------
 PK: memberId
 CK: email
