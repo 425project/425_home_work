@@ -91,11 +91,11 @@ cardType: varchar(10)
 phone: numeric(12,0)
 address: varchar(25)
 zipCode: numeric(5,0)
-expiration date
+expiration: date
 ----------------------------
 PK: memberId
 CK: email
-CK: creditCardNo
+CK: creditCard
 CK: firstName,lastName,phone
 CK: firstName,lastName,address
 
