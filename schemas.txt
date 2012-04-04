@@ -72,10 +72,10 @@ firstName: varchar(10)
 lastName: varchar(10)
 email: varchar(20)
 phone: numeric(12,0)
-quantity: numeric(4,0)
 creditCard: numeric(12,0)
 cardType: varchar(50)
 ticketId: numeric(8,0)
+quantity: numeric(4,0)
 -----------------------------
 PK: recordId
 FK: ticketId references PlaySchedule
@@ -149,7 +149,7 @@ MemberHistory
 accountId: numeric(8,0)
 ticketId: numeric(12,0)
 quantity: numeric(4,0)
-discount: numberic(3,2)
+discount: numeric(3,2)
 ------------------------------
 PK: accountId, ticketId
 
