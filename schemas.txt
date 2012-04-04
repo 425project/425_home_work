@@ -27,12 +27,17 @@ typeName: varchar(200)
 PK: typeId
 
 
+
+
 MovieType
 ----------------------------
+movieId: numeric(5,0)
 typeId: numeric(3,0)
-movieId: numeric(8,0)
 ----------------------------
-PK: typeId,movieId
+PK: movieId,typeId
+FK: movieId references Movie
+FK: typeId references Type
+
 
 Room
 ----------------------------
