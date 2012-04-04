@@ -46,7 +46,7 @@ name: varchar(10)
 theaterId: numeric(4,0)
 ----------------------------
 PK: name,theaterId
-FK: theaterId
+FK: theaterId references Theater
 
 
 PlaySchedule
