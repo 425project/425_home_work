@@ -20,6 +20,21 @@ PK: movieId
 CK: title, director
 
 
+Type
+---------------------------
+typeId: numeric(8,0)
+typeName: varchar(200)
+---------------------------
+PK: typeId
+
+
+MovieType
+----------------------------
+typeId: numeric(8,0)
+movieId: numeric(8,0)
+----------------------------
+PK: typeId,movieId
+
 Room
 ----------------------------
 name: varchar(10)
