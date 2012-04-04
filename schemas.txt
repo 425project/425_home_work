@@ -40,7 +40,8 @@ Room
 name: varchar(10)
 theaterId: numeric(4,0)
 ----------------------------
-PK: name, theaterId
+PK: name,theaterId
+FK: theaterId
 
 
 PlaySchedule
