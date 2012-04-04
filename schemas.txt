@@ -214,8 +214,8 @@ Reply
 --------------------------------
 replyId: numeric(14,0)
 accountId: numeric(8,0)
-mThreadId: varchar(10,0)
-tThreadId: varchar(10,0)
+mThreadId: numeric(8,0)
+tThreadId: numeric(8,0)
 comment: varchar(2000,0)
 --------------------------------
 PK: replyId
