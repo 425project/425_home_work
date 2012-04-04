@@ -88,7 +88,7 @@ lastName: varchar(10)
 email: varchar(20)
 creditCard: numeric(20,0)
 cardType: varchar(10)
-phone: numeric(20,12)
+phone: numeric(12,0)
 address: varchar(25)
 zipCode: numeric(5,0)
 expiration date
