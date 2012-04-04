@@ -123,7 +123,7 @@ Account
 -----------------------------
 accountId: numeric(8,0)
 password: varchar(16,0)
-accountType: varChar(10,0)
+typeId: numeric(10,0)
 point: numeric(8,0)
 memberId: numeric(8,0)
 staffId: numeric(5,0)
