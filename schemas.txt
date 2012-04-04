@@ -57,7 +57,7 @@ movieId: numeric(5,0)
 theaterId: numeric(4,0)
 room: varchar(10)
 time: date
-price: numric (6,2)
+price: numeric (6,2)
 ---------------------------
 PK: ticketId
 FK: movieId references Movie
