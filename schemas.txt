@@ -158,6 +158,7 @@ StaffGroup
 ------------------------------
 groupId: numeric:(2,0)
 groupName: varchar(10,0)
+description: varchar(150)
 ------------------------------
 PK:groupId
 CK:groupName
