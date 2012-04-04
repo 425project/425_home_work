@@ -123,7 +123,7 @@ CK: firstName, lastName, address
 Account
 -----------------------------
 accountId: numeric(8,0)
-password: varchar(16,0)
+password: varchar(16)
 typeId: numeric(10,0)
 point: numeric(8,0)
 memberId: numeric(8,0)
