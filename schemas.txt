@@ -190,7 +190,7 @@ MovieThread
 threadId(12,0)
 accountId: numeric(8,0)
 movieId: numeric(5,0)
-star: numeric(1,0)
+stars: varchar(50,0)
 review: varchar(2000,0)
 --------------------------------
 PK: threadId
