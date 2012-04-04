@@ -69,7 +69,7 @@ email: varchar(20)
 phone: numeric(20,12)
 movieId: numeric(5,0)
 theaterId: numeric(4,0)
-number: numeric(4,0)
+quantity: numeric(4,0)
 time: date
 creditCard: numric(12,0)
 -----------------------------
@@ -146,7 +146,7 @@ MemberHistory
 ------------------------------
 accountId: numeric(8,0)
 ticketId: numeric(12,0)
-number: numeric(4,0)
+quantity: numeric(4,0)
 discount: numberic(2,2)
 ------------------------------
 PK: accountId, ticketId
