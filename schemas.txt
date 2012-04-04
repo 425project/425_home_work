@@ -148,7 +148,7 @@ MemberHistory
 accountId: numeric(8,0)
 ticketId: numeric(12,0)
 quantity: numeric(4,0)
-discount: numberic(2,2)
+discount: numberic(3,2)
 ------------------------------
 PK: accountId, ticketId
 
