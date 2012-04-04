@@ -209,7 +209,7 @@ review: varchar(2000,0)
 --------------------------------
 PK: threadId
 FK: accountId references Account
-FK: movieId references Movie
+FK: theaterid references theater
 
 
 Reply
