@@ -12,7 +12,7 @@ Movie
 movieId: numeric(5,0)
 title: varchar(20)
 director: varchar(20)
-star: varchat(200)
+stars: varchar(200)
 type: varchar (10,5)
 description: varchar(250)
 ---------------------------
