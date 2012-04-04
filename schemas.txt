@@ -3,6 +3,7 @@
 theaterId: numeric(4,0)
 name: varchar(15)
 address: varchar(25)
+zipCode: numeric(5,0)
 ---------------------------
 PK: theaterId
 CK: address
