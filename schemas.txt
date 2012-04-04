@@ -111,6 +111,7 @@ address: varchar(25)
 zipCode: numeric(5,0)
 ssn: numeric(9,0)
 groupId: numeric:(3,0)
+description: varchar(150)
 -----------------------------
 PK: staffId
 FK: groupId references StaffGroup
